@@ -11,7 +11,8 @@ class Track {
     required this.name,
     required this.artistName,
     required this.duration,
-    this.currentProgress = Duration.zero,
+    this.currentProgress =
+        const Duration(minutes: 1, seconds: 20), //TODO: Can remove this later.
     this.isLiked = false,
   });
 

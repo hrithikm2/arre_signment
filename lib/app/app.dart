@@ -17,6 +17,8 @@ class App extends ConsumerWidget {
         textTheme: AppTextStyles.textTheme(context),
         fontFamily: GoogleFonts.ubuntu().fontFamily,
         scaffoldBackgroundColor: AppColors.primary,
+        progressIndicatorTheme:
+            const ProgressIndicatorThemeData(color: AppColors.secondaryColor),
         appBarTheme: AppBarTheme(
           color: AppColors.shadowColor.withOpacity(0.2),
           foregroundColor: AppColors.shadowColor.withOpacity(0.2),

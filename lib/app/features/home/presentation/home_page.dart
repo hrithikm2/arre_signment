@@ -3,6 +3,7 @@ import 'package:arre_signment/app/features/player/domain/track_model.dart';
 import 'package:arre_signment/app/features/player/presentation/providers/player_provider.dart';
 import 'package:arre_signment/app/gen/assets.gen.dart';
 import 'package:arre_signment/app/utils/theme/app_colors.dart';
+import 'package:arre_signment/app/widgets/circle_button.dart';
 import 'package:arre_signment/app/widgets/custom_app_bar.dart';
 import 'package:arre_signment/app/widgets/custom_bottom_bar.dart';
 import 'package:cached_network_image/cached_network_image.dart';
@@ -45,8 +46,8 @@ class _HomePageState extends ConsumerState<HomePage> {
               onPressed: () {
                 final track = Track(
                   id: '1',
-                  name: 'Track Name',
-                  artistName: 'Artist Name',
+                  name: 'How to make your business grow faster',
+                  artistName: '@ShellyShah',
                   duration: const Duration(minutes: 3, seconds: 30),
                 );
                 audioPlayerNotifier.playTrack(track);
@@ -68,47 +69,15 @@ class _HomePageState extends ConsumerState<HomePage> {
             inactiveIcon: SvgPicture.asset(Assets.images.svg.searchIcon.path),
           ),
           NavBarItem(
-            activeIcon: MaterialButton(
-              shape: const CircleBorder(),
+            activeIcon: CircleButton(
+              radius: 24,
+              iconPath: Assets.images.svg.createIcon.path,
               onPressed: () {},
-              child: const DecoratedBox(
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [
-                      Color(0XFFFFA553),
-                      Color(0XFFEE8C34),
-                      Color(0XFFEA5434),
-                    ],
-                  ),
-                ),
-              ),
             ),
-            inactiveIcon: MaterialButton(
-              height: 48,
-              minWidth: 48,
-              shape: const CircleBorder(),
-              onPressed: () {}, //TODO: Perform center button tap action.
-              child: Container(
-                height: 48,
-                width: 48,
-                decoration: const ShapeDecoration(
-                  shape: CircleBorder(),
-                  gradient: LinearGradient(
-                    begin: Alignment(-1, -1),
-                    end: Alignment(1, 1),
-                    colors: [
-                      Color(0XFFFFA553),
-                      Color(0XFFEE8C34),
-                      Color(0XFFEA5434),
-                    ],
-                  ),
-                ),
-                child: Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
-                  child: SvgPicture.asset(Assets.images.svg.createIcon.path),
-                ),
-              ),
+            inactiveIcon: CircleButton(
+              radius: 24,
+              iconPath: Assets.images.svg.createIcon.path,
+              onPressed: () {},
             ),
           ),
           NavBarItem(

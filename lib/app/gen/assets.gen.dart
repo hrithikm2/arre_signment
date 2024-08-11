@@ -48,6 +48,10 @@ class $AssetsImagesSvgGen {
   SvgGenImage get createIcon =>
       const SvgGenImage('assets/images/svg/create_icon.svg');
 
+  /// File path: assets/images/svg/heart_icon.svg
+  SvgGenImage get heartIcon =>
+      const SvgGenImage('assets/images/svg/heart_icon.svg');
+
   /// File path: assets/images/svg/home_fill_icon.svg
   SvgGenImage get homeFillIcon =>
       const SvgGenImage('assets/images/svg/home_fill_icon.svg');
@@ -58,6 +62,10 @@ class $AssetsImagesSvgGen {
 
   /// File path: assets/images/svg/play.svg
   SvgGenImage get play => const SvgGenImage('assets/images/svg/play.svg');
+
+  /// File path: assets/images/svg/playlist_icon.svg
+  SvgGenImage get playlistIcon =>
+      const SvgGenImage('assets/images/svg/playlist_icon.svg');
 
   /// File path: assets/images/svg/search_icon.svg
   SvgGenImage get searchIcon =>
@@ -72,9 +80,11 @@ class $AssetsImagesSvgGen {
         arreVoiceLogo,
         commIcon,
         createIcon,
+        heartIcon,
         homeFillIcon,
         notificationIcon,
         play,
+        playlistIcon,
         searchIcon,
         usersIcon
       ];
