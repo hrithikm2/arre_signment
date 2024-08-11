@@ -59,7 +59,7 @@ class AudioPlayerWidget extends ConsumerWidget {
                         onPressed: () => audioPlayerNotifier
                             .pauseTrack(), //TODO: can be improved later.
                       ),
-                      SvgPicture.asset(Assets.images.svg.heartIcon.path),
+                      SvgPicture.asset(Assets.images.svg.playlistIcon.path),
                     ],
                   ),
                 ),
