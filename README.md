@@ -1,16 +1,59 @@
-# arre_signment
+# Arré Frontend Assignment
 
-A new Flutter project.
+## Project Overview
 
-## Getting Started
+This project is an implementation of the Arré app frontend, based on the provided Figma design. It focuses on UI/UX implementation, with particular attention to design accuracy and code quality.
 
-This project is a starting point for a Flutter application.
+## Design Reference
 
-A few resources to get you started if this is your first Flutter project:
+The implementation is based on the following Figma design:
+[Arré Assignment FE Design](https://www.figma.com/design/T8XDVWt0Ve58hKSJ0Dxj18/Arr%C3%A9-Assignment-FE?node-id=0-1&t=TW6P1hVwYdUyAZOk-1)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Video Demo
+![app-demo](https://github.com/user-attachments/assets/c0f92ded-d82c-4bb6-b344-8c0df99c2568)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Project Structure
+```
+└── 📁lib
+    └── 📁app
+        └── 📁features
+            └── 📁home
+                └── 📁data
+                └── 📁domain
+                └── 📁presentation
+                    └── 📁providers
+                        └── home_page_provider.dart
+                    └── 📁widgets
+                        └── audio_player_widget.dart
+                        └── voice_overview_item.dart
+                    └── home_page.dart
+            └── 📁player
+                └── 📁data
+                └── 📁domain
+                    └── track_model.dart
+                └── 📁presentation
+                    └── 📁providers
+                        └── player_provider.dart
+                    └── 📁widgets
+                    └── player_page.dart
+        └── 📁gen
+            └── assets.gen.dart
+        └── 📁routing
+            └── routes.dart
+        └── 📁utils
+            └── 📁constants
+                └── route_constants.dart
+            └── 📁theme
+                └── app_colors.dart
+                └── text_styles.dart
+        └── 📁widgets
+            └── blur_effect.dart
+            └── circle_button.dart
+            └── custom_app_bar.dart
+            └── custom_bottom_bar.dart
+        └── app.dart
+    └── .DS_Store
+    └── main.dart
+```
+I hope to hear from you soon 
