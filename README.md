@@ -12,6 +12,9 @@ The implementation is based on the following Figma design:
 ## Video Demo
 Please note due to file size constraints, the demo is compressed, 
 Please check the demo [here](https://drive.google.com/file/d/1Q6rnGpuTD1isHTEvHf4edFyobvlCPgFs/view?usp=sharing)
+
+
+
 ![app-demo](https://github.com/user-attachments/assets/c0f92ded-d82c-4bb6-b344-8c0df99c2568)
 
 
