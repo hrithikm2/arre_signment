@@ -16,6 +16,20 @@ dependencies:
   go_router: ^14.2.3
   logger: ^2.4.0
   flutter_riverpod: ^2.5.1
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.4.0
+  google_fonts: ^6.2.1
+
+flutter_gen:
+  output: lib/app/gen/ # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+  # Optional
+  integrations:
+    flutter_svg: true
+    flare_flutter: true
+    rive: true
+    lottie: true
 
 dev_dependencies:
   flutter_test:
@@ -28,3 +42,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/png/
+    - assets/images/svg/
