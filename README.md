@@ -11,7 +11,7 @@ The implementation is based on the following Figma design:
 
 ## Video Demo
 Please note due to file size constraints, the demo is compressed, 
-Please check the demo [here](https://drive.google.com/file/d/1Md-0ZP3GFkAHLMt6CIvJF99IKmabvW9o/view?usp=drive_link)
+Please check the demo [here](https://drive.google.com/file/d/1Al6lKbGQeVyi0NKN0GAnhqJTR8BLLhQm/view?usp=sharing)
 
 
 
